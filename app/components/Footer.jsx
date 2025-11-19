@@ -6,9 +6,9 @@ const Footer = () => {
   return (
     <footer className="footer footer-horizontal footer-center bg-base-200 text-base-content rounded p-10">
   <nav className="grid grid-flow-col gap-4">
-    <a className="link link-hover">About us</a>
+    <a className="link link-hover">Home</a>
+    <a className="link link-hover">About</a>
     <a className="link link-hover">Contact</a>
-    <a className="link link-hover">Services</a>
   </nav>
   <nav>
     <div className="grid grid-flow-col gap-4">
@@ -53,12 +53,7 @@ const Footer = () => {
         <p>
           © {new Date().getFullYear()} Speak Better English - Paul Srinivasa. All rights reserved.
         </p>
-        <p className="mt-2">
-          Designed with ❤️ by &nbsp;
-          <span className="text-[var(--color-secondary)] font-semibold">
-            Brandriko Digital Solutions
-          </span>
-        </p>
+        
       </div>
   </aside>
 </footer>
