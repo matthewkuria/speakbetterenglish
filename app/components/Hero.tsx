@@ -2,7 +2,7 @@
 export default function Hero() {
   return (
     <section className="flex items-center justify-center min-h-screen md:py-5 md:px-10 ">
-      <div className="grid grid-cols-1 md:grid-cols-2 w-full justify-center items-center gap-8 md:gap-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 w-full justify-center items-center gap-8 md:gap-16 p-4">
       {/* Column 1 */}
         <div className="text-center md:text-left w-full mt-28 md:mt-0 md:pl-8 p-2">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
