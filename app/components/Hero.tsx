@@ -2,7 +2,7 @@
 export default function Hero() {
   return (
     <section className="flex items-center justify-center min-h-screen md:py-5 md:px-10 ">
-      <div className="grid grid-cols-1 md:grid-cols-2 w-full justify-center items-center gap-8 md:gap-16 p-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 w-full justify-center items-center gap-8 md:gap-16 p-2">
       {/* Column 1 */}
         <div className="text-center md:text-left w-full mt-28 md:mt-0 md:pl-8 p-2">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
@@ -32,8 +32,8 @@ export default function Hero() {
         {/* End of column 1 */}
 
         {/* Services cards */}
-        <div className="flex flex-col items-center md:items-end mt-8 md:mt-0 min-h-screen overflow-y-scroll p-8 space-y-6">
-          <div className="card bg-blue-100  w-96 service-card mb-6 hover:scale-105 transition-transform">
+        <div className="flex flex-col items-center md:items-end mt-8 md:mt-0">
+          <div className="card bg-blue-100  w-96 service-card mb-6 hover:scale-105 transition-transform duration-300 ease-in-out">
             <div className="card-body">
               <h2 className="card-title">English Translation Services</h2>
               <p className="font-semibold">Expert translation services bridging communication across multiple languages</p>
@@ -46,7 +46,7 @@ export default function Hero() {
             </div>
           </div>
           {/* Card 2 */}
-          <div className="service-card bg-primary text-primary-content w-96 service-card mb-6">
+          <div className="service-card bg-primary text-primary-content w-96 service-card">
             <div className="card-body">
               <h3 className="card-title">English Tutoring Services</h3>
               <p className="font-semibold">Personalized tutoring for professionals seeking English fluency</p>
@@ -58,7 +58,6 @@ export default function Hero() {
               </ul>
               </div>
           </div>
-
        </div>
       </div>
     </section>

@@ -21,7 +21,7 @@ body {
   padding: 0.5rem;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: transform 2s, box-shadow 0.3s;
   text-align: left;
 }
 .service-card:hover {
@@ -31,7 +31,7 @@ body {
 .service-card li::before {
   content: "✓";
   position: absolute;
-  left: 4;
+  left: 10;
   font-weight: bold;
 }
 .card-title{
@@ -43,7 +43,6 @@ body {
   background: #667eea;
   color: #fff;
   padding: 2rem;
-  margin-top: 3rem;
   text-align: center;
   }
 
