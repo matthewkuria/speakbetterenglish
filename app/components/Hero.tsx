@@ -32,8 +32,8 @@ export default function Hero() {
         {/* End of column 1 */}
 
         {/* Services cards */}
-        <div className="flex flex-col items-center md:items-end mt-8 md:mt-0 min-h-screen overflow-y-scroll p-4">
-          <div className="card bg-primary text-primary-content w-96 service-card mb-6">
+        <div className="flex flex-col items-center md:items-end mt-8 md:mt-0 min-h-screen overflow-y-scroll p-8 space-y-6">
+          <div className="card bg-blue-100  w-96 service-card mb-6 hover:scale-105 transition-transform">
             <div className="card-body">
               <h2 className="card-title">English Translation Services</h2>
               <p className="font-semibold">Expert translation services bridging communication across multiple languages</p>
