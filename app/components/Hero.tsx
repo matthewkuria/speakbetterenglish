@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -14,19 +15,19 @@ export default function Hero() {
           </p>
 
           <div className="mt-6 flex flex-row gap-10 justify-center md:justify-start md:w-full mx-auto">
-            <a
+            <Link
               href="#get-started"
               className="px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition"
             >
               Get Started
-            </a>
+            </Link>
 
-            <a
+            <Link
               href="#learn-more"
               className="px-6 py-3 border border-blue-600 text-blue-600 rounded-lg font-semibold hover:bg-blue-50 transition"
             >
               Learn More
-            </a>
+            </Link>
           </div>
       </div>
         {/* End of column 1 */}
