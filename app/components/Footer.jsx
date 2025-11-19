@@ -4,7 +4,7 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn,  FaYoutube } from "react-icons/
 
 const Footer = () => {
   return (
-  <footer className="footer footer-horizontal footer-center bg-gray-900 text-base-content rounded p-10">
+  <footer className="footer footer-horizontal footer-center bg-gray-900 text-white rounded p-10">
       <nav className="grid grid-flow-col gap-4">
         <Link href="/" className="link link-hover">Home</Link>
         <Link href="/about" className="link link-hover">About</Link>
