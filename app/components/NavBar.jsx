@@ -24,7 +24,7 @@ const NavBar = () => {
             alt="Speak Better English Logo"
             width={140}
             height={50}
-            className="object-contain h-[60px] w-auto"
+            className="object-contain h-20 w-auto"
           />
         </Link>
 

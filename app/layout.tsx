@@ -4,14 +4,12 @@ import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+import { Figtree } from "next/font/google";
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const figTree = Figtree({
   subsets: ["latin"],
+  variable: "--font-figtree",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -31,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${figTree.className}  antialiased`}
       >
         <NavBar />
         {children}
