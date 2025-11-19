@@ -13,23 +13,19 @@ import Link from "next/link";
 
 export default function TopBar() {
   return (
-    <div className="w-full bg-gradient-to-r from-[#1D3557] to-[#457B9D] text-white text-sm py-2 border-b border-white/20">
+    <div className="w-full hidden md:block  bg-gradient-to-r from-[#667eea] to-[#764ba2] text-white text-sm py-2 border-b border-white/20">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
         
         {/* Left Section */}
         <div className="flex flex-col md:flex-row items-center gap-2 md:gap-6 text-center md:text-left">
           <div className="flex items-center gap-2">
             <Phone size={16} aria-hidden="true" />
-            <span>+19 123-960-569</span>
+            <span>+91 94402 05772</span>
           </div>
           <div className="flex items-center gap-2">
             <Mail size={16} aria-hidden="true" />
-            <span>info@speakbetterenglish.com</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <MapPin size={16} aria-hidden="true" />
-            <span>Kalkatta, India</span>
-          </div>
+            <span>naikeffort@gmail.com</span>
+          </div>          
         </div>
 
         {/* Right Section */}
@@ -52,7 +48,7 @@ export default function TopBar() {
           {/* CTA Button */}
           <Link
             href="/appointment"
-            className="mt-2 md:mt-0 px-4 py-1 bg-[#A8DADC] text-[#1D3557] font-semibold rounded-full hover:bg-[#F1FAEE] transition"
+            className="mt-2 md:mt-0 px-4 py-1 bg-white text-[#1D3557] font-semibold rounded-full hover:bg-[#F1FAEE] transition"
           >
             Book our services
           </Link>

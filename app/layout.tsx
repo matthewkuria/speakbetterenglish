@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
-import TopBar from "./components/TopBar";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -16,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Speak Better English with Paul",
+  title: "Speak Better English - Professional Translation & Tutoring Services",
   description: "Improve your English speaking skills with personalized lessons from Paul, an experienced English tutor.",
   icons: {
     icon: "/favicon.ico",
@@ -34,7 +33,6 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <TopBar />
         <NavBar />
         {children}
         <Footer />

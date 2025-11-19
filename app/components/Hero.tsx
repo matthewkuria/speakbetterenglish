@@ -2,32 +2,19 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-white px-6 md:px-12">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-        {/* Right Image */}
-        <div className="flex justify-center md:justify-end md:order-2">
-          <Image
-            src="/paul_srinivasa (2).jpeg" // <-- Replace with your actual image path
-            alt="Speak Better English Learning Illustration"
-            width={500}
-            height={500}
-            className="object-contain"
-            priority
-          />
-        </div>
-
-        {/* Right Content */}
-        <div className="text-center md:text-left md:order-1">
+    <section className="flex items-center justify-center min-h-screen md:py-5 md:px-10 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 w-full justify-center items-center gap-8 md:gap-16">
+      {/* Column 1 */}
+        <div className="text-center md:text-left w-full mt-28 md:mt-0 md:pl-8">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
-            Speak Better English with Confidence
+            Speak <span className="text-blue-700">Better </span>English 
           </h1>
-          <p className="mt-4 text-lg text-gray-700 max-w-md">
-            Improve your English fluency, pronunciation, and vocabulary with
-            personalized lessons designed to help you communicate clearly and
-            confidently in everyday life.
+          <h2 className="text-xl md:text-2xl my-2 text-gray-900 leading-tight">Professional Translation & Tutoring Services</h2>
+          <p className="mt-4 text-lg text-gray-700 ">
+            Empowering business leaders and service industry professionals across India to communicate confidently in English.
           </p>
 
-          <div className="mt-6 flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center md:justify-start">
+          <div className="mt-6 flex flex-row gap-10 justify-center md:justify-start md:w-full mx-auto">
             <a
               href="#get-started"
               className="px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition"
@@ -42,7 +29,38 @@ export default function Hero() {
               Learn More
             </a>
           </div>
-        </div>
+      </div>
+        {/* End of column 1 */}
+
+        {/* Services cards */}
+        <div className="flex flex-col items-center md:items-end mt-8 md:mt-0 min-h-screen overflow-y-scroll p-4">
+          <div className="card bg-primary text-primary-content w-96 service-card mb-6">
+            <div className="card-body">
+              <h2 className="card-title">English Translation Services</h2>
+              <p className="font-semibold">Expert translation services bridging communication across multiple languages</p>
+                <ul>
+                  <li>Business documents</li>
+                  <li>Technical materials</li>
+                  <li>Professional correspondence</li>
+                  <li>Industry-specific content</li>
+                </ul>
+            </div>
+          </div>
+          {/* Card 2 */}
+          <div className="service-card bg-primary text-primary-content w-96 service-card mb-6">
+            <div className="card-body">
+              <h3 className="card-title">English Tutoring Services</h3>
+              <p className="font-semibold">Personalized tutoring for professionals seeking English fluency</p>
+              <ul>
+                  <li>Business English</li>
+                  <li>Conversational skills</li>
+                  <li>Online and in-person sessions</li>
+                  <li>Flexible scheduling</li>
+              </ul>
+              </div>
+          </div>
+
+       </div>
       </div>
     </section>
   );

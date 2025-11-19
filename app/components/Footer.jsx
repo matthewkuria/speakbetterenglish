@@ -51,7 +51,7 @@ const Footer = () => {
     {/* Bottom Bar */}
       <div className="border-t border-gray-700 mt-12 pt-6 text-center text-gray-400 text-sm">
         <p>
-          © {new Date().getFullYear()} Speak Better English. All rights reserved.
+          © {new Date().getFullYear()} Speak Better English - Paul Srinivasa. All rights reserved.
         </p>
         <p className="mt-2">
           Designed with ❤️ by &nbsp;

@@ -10,7 +10,7 @@ const NavBar = () => {
 
   const menuItems = [
     { name: "Home", href: "/" },
-    { name: "About Us", href: "/about-us" },
+    { name: "About", href: "/about" },
     { name: "Contact", href: "/contact" },
   ];
 
@@ -20,11 +20,11 @@ const NavBar = () => {
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <Image
-            src="/Elite-Logo.png"
+            src="/logo.png"
             alt="Speak Better English Logo"
             width={140}
             height={50}
-            className="object-contain"
+            className="object-contain h-[60px] w-auto"
           />
         </Link>
 
