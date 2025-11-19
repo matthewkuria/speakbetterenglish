@@ -40,8 +40,7 @@ body {
 }
 /* Languages Section */
   .languages {
-  background: #667eea;
-  color: #fff;
+  background: rgba(0,0,0,0.05);
   padding: 2rem;
   text-align: center;
   }
@@ -57,10 +56,11 @@ body {
   justify-content: center;
   gap: 1rem;
   margin-top: 1.5rem;
+  color: #ffffff;
   }
 
 .language-badge {
-  background: rgba(255,255,255,0.2);
+  background: rgba(0,0,255,0.5);
   padding: 0.75rem 1.5rem;
   border-radius: 25px;
   font-weight: 500;

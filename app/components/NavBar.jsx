@@ -46,8 +46,8 @@ const NavBar = () => {
           {/* CTA Button */}
           <li>
             <Link
-              href="#get-started"
-              className="px-5 py-2 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition"
+              href="/#get-started"
+              className="px-5 py-2 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition hidden lg:inline-block"
             >
               Start Learning
             </Link>
