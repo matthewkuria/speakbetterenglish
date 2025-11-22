@@ -13,7 +13,7 @@ const page = () => {
             </section>
           <div className="p-4 md:p-8 max-w-6xl mx-auto space-y-8">
               {/* Content Section */}
-          <p className="">
+          <p className="border-l-4 border-blue-600 pl-4 text-lg leading-relaxed">
               I am delighted to introduce myself as a professional tourist guide offering translation and history‑based guiding services for visitors coming from abroad to explore the beauty and heritage of India. With my background, experience, and passion for sharing knowledge, I aim to provide travellers with a memorable, meaningful, and safe journey across India.
           </p>
           <div className="">
