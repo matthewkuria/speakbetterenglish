@@ -12,6 +12,7 @@ const NavBar = () => {
   const menuItems = [
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
+    { name: "Tourist Guide Services", href: "/tourist-guide-services" },
     { name: "Contact", href: "/contact" },
   ];
 
