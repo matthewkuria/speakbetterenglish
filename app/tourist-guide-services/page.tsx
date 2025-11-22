@@ -13,7 +13,7 @@ const page = () => {
             </section>
           <div className="p-4 md:p-8 max-w-6xl mx-auto space-y-8">
               {/* Content Section */}
-          <p className="border-l-4 border-blue-600 pl-4 text-lg leading-relaxed">
+          <p className="border-l-4 border-blue-600 p-4 text-lg leading-relaxed rounded-xl bg-blue-50">
               I am delighted to introduce myself as a professional tourist guide offering translation and history‑based guiding services for visitors coming from abroad to explore the beauty and heritage of India. With my background, experience, and passion for sharing knowledge, I aim to provide travellers with a memorable, meaningful, and safe journey across India.
           </p>
           <div className="">
@@ -38,13 +38,13 @@ const page = () => {
           <div className="">
               <h2 className="text-2xl font-semibold">Major Tourist Spots I Can Guide</h2>
               <p className="">I can guide visitors to many famous and important locations in India, including:</p>
-              <div className="grid grid-cols-2 md:grid-cols-5 gap-4 my-4">
-                  <div className="p-2 text-center bg-[#0000ff80] text-white rounded-lg">
-                      <h3 className="font-semibold">Taj Mahal – Agra</h3>
+              <div className="grid grid-cols-2 md:grid-cols-5 gap-4 my-4 text-sm">
+                  <div className="p-2 text-center bg-[#0000ff80] text-white rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out">
+                      <h3 className="font-semibold text-xl">Taj Mahal – Agra</h3>
                       <p className="">One of the Seven Wonders of the World, known for its breathtaking beauty and Mughal architecture.</p>
                   </div>
-                  <div className="p-2 text-center bg-[#0000ff80] text-white rounded-lg">
-                      <h3 className="font-semibold"> Delhi Historical Monuments</h3>
+                  <div className="p-2 text-center bg-[#0000ff80] text-white rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out">
+                      <h3 className="font-semibold text-xl"> Delhi Historical Monuments</h3>
                       <ul className="">
                           <li>Red Fort</li>
                           <li>Qutub Minar</li>
@@ -52,56 +52,56 @@ const page = () => {
                           <li className="">Humayun’s Tomb</li>
                       </ul>
                   </div>
-                  <div className="p-2 text-center bg-[#0000ff80] text-white rounded-lg">
-                      <h3>Varanasi – The Spiritual Capital of India</h3>
+                  <div className="p-2 text-center bg-[#0000ff80] text-white rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out">
+                      <h3 className="font-semibold text-xl">Varanasi – The Spiritual Capital of India</h3>
                       <p className="">Known for Ganga Aarti, temples, ghats, and ancient traditions.</p>
                   </div>
-                  <div className="p-2 text-center bg-[#0000ff80] text-white rounded-lg">
-                      <h3 className="font-semibold">Jaipur – The Pink City</h3>
+                  <div className="p-2 text-center bg-[#0000ff80] text-white rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out">
+                      <h3 className="font-semibold text-xl">Jaipur – The Pink City</h3>
                       <ul className="">
                           <li>Amber Fort</li>
                           <li>City Palace</li>
                           <li>Hawa Mahal</li>
                       </ul>
                   </div>
-                  <div className="p-2 text-center bg-[#0000ff80] text-white rounded-lg">
-                      <h3 className="">Goa Beaches & Portuguese Heritage Sites</h3>
+                  <div className="p-2 text-center bg-[#0000ff80] text-white rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out">
+                      <h3 className="font-semibold text-xl">Goa Beaches & Portuguese Heritage Sites</h3>
                       <p className="">Relaxation, culture, churches, and beautiful coastal views.</p>
                   </div>
-                  <div className="p-2 text-center bg-[#0000ff80] text-white rounded-lg">
-                      <h3 className="">Kerala – God’s Own Country</h3>
+                  <div className="p-2 text-center bg-[#0000ff80] text-white rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out">
+                      <h3 className="font-semibold text-xl">Kerala – God’s Own Country</h3>
                       <ul className="">
                           <li className="">Backwaters</li>
                           <li className="">Alleppey Houseboats</li>
                           <li className="">Munnar Tea Estates</li>
                       </ul>
                   </div>
-                  <div className="p-2 text-center bg-[#0000ff80] text-white rounded-lg">
-                      <h3 className="">Hyderabad</h3>
+                  <div className="p-2 text-center bg-[#0000ff80] text-white rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out">
+                      <h3 className="font-semibold text-xl">Hyderabad</h3>
                       <ul className="">
                           <li className="">Charminar</li>
                           <li className="">Golconda Fort</li>
                           <li className="">Ramoji Film City</li>
                         </ul>
                   </div>
-                  <div className="p-2 text-center bg-[#0000ff80] text-white rounded-lg">
-                      <h3 className="">Mumbai</h3>
+                  <div className="p-2 text-center bg-[#0000ff80] text-white rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out">
+                      <h3 className="font-semibold text-xl">Mumbai</h3>
                       <ul className="">
                           <li className="">Gateway of India</li>
                           <li className="">Elephanta Caves</li>
                           <li className="">Marine Drive</li>
                       </ul>
                   </div>
-                  <div className="p-2 text-center bg-[#0000ff80] text-white rounded-lg">
-                      <h3 className="">South Indian Temples</h3>
+                  <div className="p-2 text-center bg-[#0000ff80] text-white rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out">
+                      <h3 className="font-semibold text-xl">South Indian Temples</h3>
                       <ul className="">
                           <li>Tirupati</li>
                           <li>Meenakshi Amman Temple</li>
                           <li>Srirangam</li>
                       </ul>
                   </div>
-                  <div className="p-2 text-center bg-[#0000ff80] text-white rounded-lg">
-                      <h3 className="">Himalayan Region</h3>
+                  <div className="p-2 text-center bg-[#0000ff80] text-white rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out">
+                      <h3 className="font-semibold text-xl">Himalayan Region</h3>
                       <ul className="">
                           <li className="">Manali</li>
                           <li className="">Shimla</li>

@@ -13,6 +13,11 @@ export default function Hero() {
           <p className="mt-4  text-gray-700 ">
             Empowering business leaders and service industry professionals across India to communicate confidently in English.
           </p>
+          <p className="">
+            Our other services include <span className="font-semibold text-blue-600">
+              <Link href="/tourist-guide-services" className="hover:underline">tourist guide services</Link>
+            </span> for visitors exploring India's rich heritage and culture.
+          </p>
 
           <div className="mt-6 flex flex-row gap-10 justify-center md:justify-start md:w-full mx-auto">
             <Link
